@@ -1,4 +1,4 @@
-﻿<%@ control language="C#" autoeventwireup="true" inherits="Account_OpenAuthProviders, App_Web_qzrp2dbh" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="OpenAuthProviders.ascx.cs" Inherits="Account_OpenAuthProviders" %>
 
 <fieldset class="open-auth-providers">
     <legend>Войти, используя другую службу</legend>

@@ -1,4 +1,4 @@
-﻿<%@ page title="Контакт" language="C#" masterpagefile="~/Site.Master" autoeventwireup="true" inherits="Contact, App_Web_k5eok3g3" %>
+﻿<%@ Page Title="Контакт" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Contact" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">

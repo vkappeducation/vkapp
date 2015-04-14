@@ -1,4 +1,4 @@
-﻿<%@ page title="Управление учетной записью" language="C#" masterpagefile="~/Site.master" autoeventwireup="true" inherits="Account_Manage, App_Web_psrzpnbv" %>
+﻿<%@ Page Title="Управление учетной записью" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Manage.aspx.cs" Inherits="Account_Manage" %>
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">

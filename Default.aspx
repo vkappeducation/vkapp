@@ -1,4 +1,4 @@
-﻿<%@ page title="Домашняя страница" language="C#" masterpagefile="~/Site.Master" autoeventwireup="true" inherits="_Default, App_Web_k5eok3g3" %>
+﻿<%@ Page Title="Домашняя страница" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <section class="featured">

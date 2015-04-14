@@ -1,4 +1,4 @@
-﻿<%@ page title="Выполнить вход" language="C#" masterpagefile="~/Site.Master" autoeventwireup="true" inherits="Account_Login, App_Web_psrzpnbv" %>
+﻿<%@ Page Title="Выполнить вход" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Account_Login" %>
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
