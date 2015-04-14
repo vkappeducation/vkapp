@@ -25,11 +25,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://local
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{394B1D84-BF3E-4416-88F4-406F46FC7ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{394B1D84-BF3E-4416-88F4-406F46FC7ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394B1D84-BF3E-4416-88F4-406F46FC7ACE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{394B1D84-BF3E-4416-88F4-406F46FC7ACE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{394B1D84-BF3E-4416-88F4-406F46FC7ACE}.Release|Any CPU.Deploy.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
