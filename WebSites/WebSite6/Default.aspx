@@ -34,6 +34,14 @@
             <asp:ListItem>техническое</asp:ListItem>
         </asp:ListBox>
         
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button3" runat="server" BackColor="#006600" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="13pt" ForeColor="White" Text="Найти" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" BackColor="#006600" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="13pt" ForeColor="White" OnClick="Button1_Click" Text="Очистить" />
+        
         <asp:XmlDataSource ID="XmlDataSource1" Runat="server" DataFile="App_Data/Countries.xml"
             XPath="countries/countrie">
         </asp:XmlDataSource>&nbsp;

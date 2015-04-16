@@ -13,4 +13,10 @@ public partial class _Default : Page
 
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        ListBox1.ClearSelection();
+        ListBox2.ClearSelection();
+        ListBox3.ClearSelection();
+    }
 }
