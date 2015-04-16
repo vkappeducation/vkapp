@@ -6,15 +6,9 @@
     <form id="form1" runat="server">
         <asp:Label ID="Label1" runat="server" Text="Страна"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:ListBox ID="ListBox1" runat="server" Height="75px" Width="140px">
-            <asp:ListItem>Франция</asp:ListItem>
-            <asp:ListItem>Германия</asp:ListItem>
-            <asp:ListItem>Англия</asp:ListItem>
-            <asp:ListItem>Хорватия</asp:ListItem>
-            <asp:ListItem>Голандия</asp:ListItem>
-            <asp:ListItem>Япония</asp:ListItem>
-            <asp:ListItem>Китай</asp:ListItem>
-            <asp:ListItem>Австралия</asp:ListItem>
+        <asp:ListBox ID="ListBox1" runat="server" DataSourceID="XmlDataSource1" DataValueField="" 
+            DataMember="countrie" DataTextField="name" Height="75px" Width="140px">
+          
         </asp:ListBox>
         <br />
         <br />
@@ -39,6 +33,10 @@
             <asp:ListItem>экономическое</asp:ListItem>
             <asp:ListItem>техническое</asp:ListItem>
         </asp:ListBox>
+        
+        <asp:XmlDataSource ID="XmlDataSource1" Runat="server" DataFile="App_Data/Countries.xml"
+            XPath="countries/countrie">
+        </asp:XmlDataSource>&nbsp;
     </form>
 
 </asp:Content>

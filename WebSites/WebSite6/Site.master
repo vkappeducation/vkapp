@@ -23,7 +23,7 @@
 		<a id="logo" href="https://vk.com/smart_immigration" target="_blank" title="Умная Заграница ВКонтакте">Умная Заграница</a>
 		<h3>Поиск грантов и стипендий</h3>
 		
-
+  
 <asp:ContentPlaceHolder
     EnableViewState="True"
     ID="MainContent"
