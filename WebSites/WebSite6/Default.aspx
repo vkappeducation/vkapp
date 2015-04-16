@@ -1,3 +1,44 @@
 ﻿<%@ Page Title="Домашняя страница" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 
+<asp:Content runat="server" ContentPlaceHolderID="MainContent">
+
+    <form id="form1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text="Страна"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ListBox ID="ListBox1" runat="server" Height="75px" Width="140px">
+            <asp:ListItem>Франция</asp:ListItem>
+            <asp:ListItem>Германия</asp:ListItem>
+            <asp:ListItem>Англия</asp:ListItem>
+            <asp:ListItem>Хорватия</asp:ListItem>
+            <asp:ListItem>Голандия</asp:ListItem>
+            <asp:ListItem>Япония</asp:ListItem>
+            <asp:ListItem>Китай</asp:ListItem>
+            <asp:ListItem>Австралия</asp:ListItem>
+        </asp:ListBox>
+        <br />
+        <br />
+        <asp:Label ID="Label2" runat="server" Text="Вид"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ListBox ID="ListBox2" runat="server" Height="75px" Width="140px">
+            <asp:ListItem>Летние школы</asp:ListItem>
+            <asp:ListItem>Магистратура</asp:ListItem>
+            <asp:ListItem>Докторантура</asp:ListItem>
+            <asp:ListItem>Семинары</asp:ListItem>
+            <asp:ListItem>Конференции</asp:ListItem>
+            <asp:ListItem>Курсы</asp:ListItem>
+            <asp:ListItem>Стажировки</asp:ListItem>
+            <asp:ListItem>Конкурсы</asp:ListItem>
+            <asp:ListItem>Прочие</asp:ListItem>
+        </asp:ListBox>
+        <br />
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="Направление"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ListBox ID="ListBox3" runat="server" Height="39px" Width="140px">
+            <asp:ListItem>экономическое</asp:ListItem>
+            <asp:ListItem>техническое</asp:ListItem>
+        </asp:ListBox>
+    </form>
+
+</asp:Content>
