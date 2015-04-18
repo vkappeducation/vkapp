@@ -1,22 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <grants>
-  <grant>
-    <country>Англия</country>
-    <type>1</type>
-    <spec>1</spec>
-    <name>Стипендия Эйнштейна</name>
-    <discription>Стипендия Эйнштейна представляет собой необычную стипендию для талантливых молодых людей, которые хотели бы продолжить свой проект в области, отличной от области предыдущих исследований. Цель стипендии - поддержать молодых людей (имеющих высшее образование в области гуманитарных, социальных или естественных наук) в возрасте до 35 лет, которые помимо исследований в сфере своей специализации, заинтересованы и в проведении иных исследований, как, например, Альберт Эйнштейн. </discription>
-    <url>https://ru.wikipedia.org/wiki/Англия</url>
+
+    <grant>
+    <country></country>
+    <type></type>
+    <spec></spec>
+    <name></name>
+    <discription></discription>
+    <url></url>
   </grant>
-  <grant>
-    <country>Франция</country>
-    <type>2</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк</name>
-    <discription>Sciences Po ввели стипендию имени Эмиля Баутми в честь основателя университета (1871) с целью привлечь самых лучших студентов из стран, не входящих в Европейский Союз.</discription>
-    <url>https://ru.wikipedia.org/wiki/Франция</url>
+   <grant>
+    <country>Румыния</country>
+    <type>0</type>
+    <spec>0</spec>
+    <name>SUMMER COURSES ''ROMANIA 2015''</name>
+    <discription>Румыния выделяет 15 стипендий российским студентам на летние курсы румынского языка, литературы, истории и цивилизации в следующих университетах:
+1) Университет, г. Крайова, 
+2)Университет им. Овидия, г. Констанца, 
+3)Университет им. Александра Иоана Куза, г. Ясы 4)Западный Университет, г. Тимишоара.
+ Дедлайн: 22 апреля 2015
+Стипендия предоставляет размещение, питание, обучение и культурная программа. </discription>
+    <url>http://www.edu.ro/index.php/articles/c1140/</url>
   </grant>
+   <grant>
+    <country>Румыния</country>
+    <type>0</type>
+    <spec>1</spec>
+    <name>SUMMER COURSES ''ROMANIA 2015''</name>
+    <discription>Румыния выделяет 15 стипендий российским студентам на летние курсы румынского языка, литературы, истории и цивилизации в следующих университетах:
+1) Университет, г. Крайова, 
+2)Университет им. Овидия, г. Констанца, 
+3)Университет им. Александра Иоана Куза, г. Ясы 4)Западный Университет, г. Тимишоара.
+ Дедлайн: 22 апреля 2015
+Стипендия предоставляет размещение, питание, обучение и культурная программа. </discription>
+    <url>http://www.edu.ro/index.php/articles/c1140/</url>
+  </grant>
+  
+
   <grant>
     <country>Англия</country>
     <type>7</type>
@@ -25,72 +46,6 @@
     <discription>Заявители узнают о результатах конкурса по электронной почте 30 июня 2015 года. Эссе победителя и другие отличившиеся сочинения будут опубликованы в журнале «Cambridge Journal of Economics». Главный приз — 7000 швейцарских франков. Дедлайн: 31 марта 2015</discription>
     <url>http://grantist.com/contest/konkurs-esse-ot-kembridzhskogo-zhurnala-ekonomiki/</url>
   </grant>
-  <grant>
-    <grant>
-    <country>Корея</country>
-    <type>3</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк Корея</name>
-    <discription>Описание</discription>
-    <url>https://ru.wikipedia.org/wiki/Корея</url>
-  </grant>
-    
-    <country>Корея</country>
-    <type>3</type>
-    <spec>1</spec>
-    <name> Курсы словенского языка</name>
-    <discription>Кандидаты, не имеющие словенского происхождения, но активно участвующие в словенской жизни или иным образом способствующие продвижению Словении в мире, могут подать заявку на одну из стипендий Фонда JanaZemljarič</discription>
-    <url>https://ru.wikipedia.org/wiki/Корея</url>
-  </grant>
-  <grant>
-    <country>Нигерия</country>
-    <type>4</type>
-    <spec>1</spec>
-    <name>
-      Премия имени Елены Рерих
-    </name>
-    <discription>Цель Международной Премии — поощрение научных исследований, связанных с изучением многогранного научно-философского и художественного наследия выдающихся деятелей отечественной и мировой культуры – семьи Рерихов, а также действий, направленных на сохранение и защиту этого наследия.</discription>
-    <url>https://ru.wikipedia.org/wiki/Нигерия</url>
-  </grant>
-  <grant>
-    <country>Россия</country>
-    <type>5</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк</name>
-    <discription>Описание</discription>
-    <url>https://ru.wikipedia.org/wiki/Россия</url>
-  </grant>
-  <grant>
-    <country>Швеция</country>
-    <type>6</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк</name>
-    <discription>Описание</discription>
-    <url>https://ru.wikipedia.org/wiki/Швеция</url>
-  </grant>
-  <grant>
-    <country>Корея</country>
-    <type>7</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк</name>
-    <discription>Описание</discription>
-    <url>https://ru.wikipedia.org/wiki/Корея</url>
-  </grant>
- <grant>
-    <country>Корея</country>
-    <type>8</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк</name>
-    <discription>Описание</discription>
-    <url>https://ru.wikipedia.org/wiki/Корея</url>
-  </grant>
-<grant>
-    <country>Корея</country>
-    <type>9</type>
-    <spec>1</spec>
-    <name>Грант Эмилии Кларк</name>
-    <discription>Описание</discription>
-    <url>https://ru.wikipedia.org/wiki/Корея</url>
-  </grant>
+  
 
 </grants>
