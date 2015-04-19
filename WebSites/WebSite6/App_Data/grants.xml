@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<grants>
+  <grant>
+    <country>Англия</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>sdfsdfsfd</discription>
+    <url>https://ru.wikipedia.org/wiki/Англия</url>
+  </grant>
+  <grant>
+    <country>Франция</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Франция</url>
+  </grant>
+  <grant>
+    <country>Корея</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Корея</url>
+  </grant>
+  <grant>
+    <country>Нигерия</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Нигерия</url>
+  </grant>
+  <grant>
+    <country>Россия</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Россия</url>
+  </grant>
+  <grant>
+    <country>Швеция</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Швеция</url>
+  </grant>
+  <grant>
+    <country>Корея</country>
+    <type>1</type>
+    <spec>1</spec>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Корея</url>
+  </grant>
+</grants>
