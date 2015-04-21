@@ -3,7 +3,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
 
-    <form id="form1" runat="server" style="height: 451px; background-color: #FFFFFF;">
+    <form id="form1" runat="server" style="margin: 0px; padding: 0px; height: 451px; background-color: #FFFFFF;">
 
       
 
