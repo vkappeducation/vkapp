@@ -23,18 +23,23 @@ public partial class _Default : Page
     protected void Button3_Click(object sender, EventArgs e)
     {	XmlDocument xml = new XmlDocument();
     string country = ListBox1.SelectedValue;
-   
+    string type = ListBox2.SelectedValue;
+    string spec = ListBox3.SelectedValue;
+    string inCountry = "";
+    string inType = "";
+    string inSpec = "";
+    string inDiscription = "";
     xml.Load(HttpContext.Current.Server.MapPath("~/App_Data/grants.xml"));
         Table tbl = new Table();
     foreach (XmlNode n in xml.SelectNodes("/grants/grant")) 
             {Label l = new Label();
          
             
-             l.Text += n.SelectSingleNode("country").InnerText;
-        if ((l.Text == country)||(country == "")) 
+             inCountry= n.SelectSingleNode("country").InnerText;
+             inType = n.SelectSingleNode("type").InnerText;
+             inSpec = n.SelectSingleNode("spec").InnerText;
+        if (((inCountry == country)||(country == ""))&&((inType == type)||(type == ""))&&((inSpec == spec)||(spec == ""))) 
         {
-         
-           
             
              HyperLink hl = new HyperLink();
          
