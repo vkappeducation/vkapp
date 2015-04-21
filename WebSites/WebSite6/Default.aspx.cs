@@ -55,8 +55,10 @@ public partial class _Default : Page
              tbc3.HorizontalAlign = HorizontalAlign.Right;
              Button b = new Button();
              b.Text = "Сайт гранта";
-    
-           
+
+             b.BorderStyle = BorderStyle.None;
+            // b.BackColor = Color.FromArgb;
+             b.Font.Size = FontUnit.Medium;
             inName = n.SelectSingleNode("name").InnerText;
             inDiscription = n.SelectSingleNode("discription").InnerText;
             
