@@ -45,7 +45,7 @@
 </asp:TableCell>
             </asp:TableRow>
             <asp:TableRow runat="server">
-                <asp:TableCell runat="server"><asp:Button ID="Button3" runat="server" BackColor="#006600" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="13pt" ForeColor="White" Text="Найти" OnClick="Button3_Click" />
+                <asp:TableCell runat="server"><asp:Button ID="Button3" runat="server"  BackColor="#006600" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="13pt" ForeColor="White" Text="Найти" OnClick="Button3_Click" />
 </asp:TableCell>
                 <asp:TableCell runat="server"><asp:Button ID="Button1" runat="server" BackColor="#006600" BorderStyle="None" Font-Bold="True" Font-Names="Arial" Font-Size="13pt" ForeColor="White" OnClick="Button1_Click" Text="Очистить" />
 </asp:TableCell>
