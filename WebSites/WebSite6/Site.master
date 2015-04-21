@@ -2,11 +2,11 @@
 
 <!DOCTYPE html>
 <html lang="ru">
-<head runat="server">
+<head runat="server" style="background-color: #FFFFFF">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <title><%: Page.Title %> — мое приложение ASP.NET</title>
-    <link href="~/styles/Style.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Syte.css" rel="stylesheet" type="text/css" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
  
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
