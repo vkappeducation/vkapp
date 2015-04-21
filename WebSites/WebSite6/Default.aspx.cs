@@ -55,7 +55,7 @@ public partial class _Default : Page
              tbc3.HorizontalAlign = HorizontalAlign.Right;
              Button b = new Button();
              b.Text = "Сайт гранта";
-             b.OnClientClick = "target ='_blank'";
+    
            
             inName = n.SelectSingleNode("name").InnerText;
             inDiscription = n.SelectSingleNode("discription").InnerText;
@@ -63,8 +63,8 @@ public partial class _Default : Page
              l.Text = inName;
              l2.Text = inDiscription;
         
-             b.PostBackUrl = n.SelectSingleNode("url").InnerText;
-
+            // b.PostBackUrl = ;
+             b.OnClientClick = "navAway('" + n.SelectSingleNode("url").InnerText + "')";
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
           
