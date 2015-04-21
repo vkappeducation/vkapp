@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -23,8 +24,9 @@ public partial class _Default : Page
     protected void Button3_Click(object sender, EventArgs e)
     {	XmlDocument xml = new XmlDocument();
     string country = ListBox1.SelectedValue;
-    string type = ListBox2.SelectedValue;
-    string spec = ListBox3.SelectedValue;
+    string type = ListBox2.SelectedIndex.ToString();
+    string spec = ListBox3.SelectedIndex.ToString();
+    
     string inCountry = "";
     string inType = "";
     string inSpec = "";
@@ -39,9 +41,10 @@ public partial class _Default : Page
              inCountry= n.SelectSingleNode("country").InnerText;
              inType = n.SelectSingleNode("type").InnerText;
              inSpec = n.SelectSingleNode("spec").InnerText;
-        if (((inCountry == country)||(country == ""))&&((inType == type)||(type == ""))&&((inSpec == spec)||(spec == ""))) 
+        if (((inCountry == country)||(country == ""))&&((inType == type)||(type == "-1"))&&((inSpec == spec)||(spec == "-1"))) 
             {Label l = new Label();
              Label l2 = new Label();
+             l.ForeColor = Color.Blue;
              HyperLink hl = new HyperLink();  
              TableRow tbr = new TableRow();
              TableRow tbr2 = new TableRow();
@@ -49,24 +52,32 @@ public partial class _Default : Page
              TableCell tbc3 = new TableCell();
              TableCell tbc = new TableCell();
              TableCell tbc2 = new TableCell();
+             tbc3.HorizontalAlign = HorizontalAlign.Right;
+             Button b = new Button();
+             b.Text = "Сайт гранта";
+             b.OnClientClick = "target ='_blank'";
+           
             inName = n.SelectSingleNode("name").InnerText;
             inDiscription = n.SelectSingleNode("discription").InnerText;
             
              l.Text = inName;
              l2.Text = inDiscription;
-             hl.Text = n.SelectSingleNode("url").InnerText;
+        
+             b.PostBackUrl = n.SelectSingleNode("url").InnerText;
+
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
+          
             tbr.Controls.Add(tbc);
             tbc.Controls.Add(l);
             tbr2.Controls.Add(tbc2);
             tbc2.Controls.Add(l2);
             tbr3.Controls.Add(tbc3);
-            tbc3.Controls.Add(hl);
+            tbc3.Controls.Add(b);
             tbl.Controls.Add(tbr);
             tbl.Controls.Add(tbr2);
             tbl.Controls.Add(tbr3);
-            tbl.GridLines = GridLines.Horizontal;
+          
            
         }
 
