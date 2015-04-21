@@ -3,14 +3,21 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
 
-    <form id="form1" runat="server" style="margin: 0px; padding: 0px; height: 451px; background-color: #FFFFFF;">
+    <form id="form1" runat="server" style="margin: 0px; padding: 0px; height: 600px;width: 800px; background-color: #FFFFFF;">
 
       
 
 
+        <br />
+&nbsp;&nbsp;
+
       
+
+
+      <asp:Label ID="Label5" runat="server" Text="Поиск грантов и стипендий" CssClass="container" Font-Size="24pt"></asp:Label> 
 
         <asp:Table ID="Table1" runat="server" Height="130px" Width="21px" CellPadding="5" CellSpacing="5">
+           
             <asp:TableRow runat="server">
 
                 <asp:TableCell runat="server"><asp:Label ID="Label1" runat="server" Text="Страна"></asp:Label>
@@ -63,6 +70,7 @@
         <asp:XmlDataSource ID="XmlDataSource1" Runat="server" DataFile="App_Data/Countries.xml"
             XPath="countries/countrie">
         </asp:XmlDataSource>&nbsp;
+     
     </form>
 
 </asp:Content>
