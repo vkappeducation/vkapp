@@ -5,6 +5,7 @@
     <country>Англия</country>
     <type>1</type>
     <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
     <discription>sdfsdfsfd</discription>
     <url>https://ru.wikipedia.org/wiki/Англия</url>
   </grant>
@@ -12,13 +13,15 @@
     <country>Франция</country>
     <type>1</type>
     <spec>1</spec>
-    <discription>Описание</discription>
+    <name>Грант Эмилии Кларк</name>
+    <discription>Sciences Po ввели стипендию имени Эмиля Баутми в честь основателя университета (1871) с целью привлечь самых лучших студентов из стран, не входящих в Европейский Союз.</discription>
     <url>https://ru.wikipedia.org/wiki/Франция</url>
   </grant>
   <grant>
     <country>Корея</country>
     <type>1</type>
     <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
     <url>https://ru.wikipedia.org/wiki/Корея</url>
   </grant>
@@ -26,6 +29,7 @@
     <country>Нигерия</country>
     <type>1</type>
     <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
     <discription>Описание гранта</discription>
     <url>https://ru.wikipedia.org/wiki/Нигерия</url>
   </grant>
@@ -33,6 +37,7 @@
     <country>Россия</country>
     <type>1</type>
     <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
     <url>https://ru.wikipedia.org/wiki/Россия</url>
   </grant>
@@ -40,6 +45,7 @@
     <country>Швеция</country>
     <type>1</type>
     <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
     <url>https://ru.wikipedia.org/wiki/Швеция</url>
   </grant>
@@ -47,6 +53,7 @@
     <country>Корея</country>
     <type>1</type>
     <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
     <url>https://ru.wikipedia.org/wiki/Корея</url>
   </grant>

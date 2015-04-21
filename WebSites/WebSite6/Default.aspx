@@ -16,9 +16,9 @@
 
       <asp:Label ID="Label5" runat="server" Text="Поиск грантов и стипендий" CssClass="container" Font-Size="24pt"></asp:Label> 
 
-        <asp:Table ID="Table1" runat="server" Height="130px" Width="21px" CellPadding="5" CellSpacing="5">
+        <asp:Table ID="Table1" runat="server" Height="130px" Width="61px" CellPadding="5" CellSpacing="5">
            
-            <asp:TableRow runat="server">
+            <asp:TableRow runat="server" BorderStyle="Dotted">
 
                 <asp:TableCell runat="server"><asp:Label ID="Label1" runat="server" Text="Страна"></asp:Label>
 </asp:TableCell>

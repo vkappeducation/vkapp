@@ -29,32 +29,45 @@ public partial class _Default : Page
     string inType = "";
     string inSpec = "";
     string inDiscription = "";
+    string inName = "";
     xml.Load(HttpContext.Current.Server.MapPath("~/App_Data/grants.xml"));
         Table tbl = new Table();
     foreach (XmlNode n in xml.SelectNodes("/grants/grant")) 
-            {Label l = new Label();
+            {
          
             
              inCountry= n.SelectSingleNode("country").InnerText;
              inType = n.SelectSingleNode("type").InnerText;
              inSpec = n.SelectSingleNode("spec").InnerText;
         if (((inCountry == country)||(country == ""))&&((inType == type)||(type == ""))&&((inSpec == spec)||(spec == ""))) 
-        {
+            {Label l = new Label();
+             Label l2 = new Label();
+             HyperLink hl = new HyperLink();  
+             TableRow tbr = new TableRow();
+             TableRow tbr2 = new TableRow();
+             TableRow tbr3 = new TableRow();
+             TableCell tbc3 = new TableCell();
+             TableCell tbc = new TableCell();
+             TableCell tbc2 = new TableCell();
+            inName = n.SelectSingleNode("name").InnerText;
+            inDiscription = n.SelectSingleNode("discription").InnerText;
             
-             HyperLink hl = new HyperLink();
-         
+             l.Text = inName;
+             l2.Text = inDiscription;
              hl.Text = n.SelectSingleNode("url").InnerText;
-             hl.NavigateUrl = hl.Text; 
-            TableRow tbr = new TableRow();
-            TableRow tbr2 = new TableRow();
-            TableCell tbc = new TableCell();
-            TableCell tbc2 = new TableCell();
+             hl.NavigateUrl = hl.Text;
+             l.Width = 450;
             tbr.Controls.Add(tbc);
-            tbr2.Controls.Add(tbc2);
             tbc.Controls.Add(l);
-            tbc2.Controls.Add(hl);
+            tbr2.Controls.Add(tbc2);
+            tbc2.Controls.Add(l2);
+            tbr3.Controls.Add(tbc3);
+            tbc3.Controls.Add(hl);
             tbl.Controls.Add(tbr);
             tbl.Controls.Add(tbr2);
+            tbl.Controls.Add(tbr3);
+            tbl.GridLines = GridLines.Horizontal;
+           
         }
 
             }
