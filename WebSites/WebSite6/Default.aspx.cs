@@ -99,7 +99,8 @@ public partial class _Default : Page
             }
     Cell1.Controls.Clear();
     Panel pnl = new Panel();
-    pnl.Height = 590;
+        
+    pnl.Height = 550;
     pnl.ScrollBars = ScrollBars.Vertical;
     pnl.Controls.Add(tbl);
     Cell1.Controls.Add(pnl);
