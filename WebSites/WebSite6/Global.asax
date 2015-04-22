@@ -41,7 +41,7 @@
                 }
                 if ((context.Request.Form.GetKey(i).Contains("Button3"))&&(browserName==""))
                 {
-                    browserName += "Button1"; return browserName;
+                    browserName += "Button3"; return browserName;
                 }
                 
             }
