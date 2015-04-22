@@ -21,6 +21,7 @@ public partial class _Default : Page
         ListBox2.ClearSelection();
         ListBox3.ClearSelection();
     }
+   
     protected void Button3_Click(object sender, EventArgs e)
     {	XmlDocument xml = new XmlDocument();
     string country = ListBox1.SelectedValue;
@@ -45,8 +46,11 @@ public partial class _Default : Page
             {Label l = new Label();
              Label l2 = new Label();
              l.ForeColor = Color.Blue;
-             HyperLink hl = new HyperLink();  
+             Table tblIn = new Table();
+             HyperLink hl = new HyperLink();
+             TableRow tbrOut = new TableRow();
              TableRow tbr = new TableRow();
+             TableCell tbcOut = new TableCell();
              TableRow tbr2 = new TableRow();
              TableRow tbr3 = new TableRow();
              TableCell tbc3 = new TableCell();
@@ -66,25 +70,41 @@ public partial class _Default : Page
              l2.Text = inDiscription;
         
             // b.PostBackUrl = ;
-             b.OnClientClick = "navAway('" + n.SelectSingleNode("url").InnerText + "')";
+           //  b.OnClientClick = "navAway('" + n.SelectSingleNode("url").InnerText + "')";
+             b.Attributes.Add("onclick", "navAway('" + n.SelectSingleNode("url").InnerText + "')");
+           
+
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
-          
+             tblIn.BorderStyle = BorderStyle.Ridge;
+             tblIn.BorderColor = Color.LightGray;
+             tblIn.BorderWidth = 1;
             tbr.Controls.Add(tbc);
             tbc.Controls.Add(l);
             tbr2.Controls.Add(tbc2);
             tbc2.Controls.Add(l2);
             tbr3.Controls.Add(tbc3);
             tbc3.Controls.Add(b);
-            tbl.Controls.Add(tbr);
-            tbl.Controls.Add(tbr2);
-            tbl.Controls.Add(tbr3);
+            tblIn.Controls.Add(tbr);
+            tblIn.Controls.Add(tbr2);
+            tblIn.Controls.Add(tbr3);
+            tbcOut.Controls.Add(tblIn);
+            tbrOut.Controls.Add(tbcOut);
+         
+            tbl.Controls.Add(tbrOut);
           
            
         }
 
             }
-    Cell1.Controls.Add(tbl);
+    Cell1.Controls.Clear();
+    Panel pnl = new Panel();
+    pnl.Height = 590;
+    pnl.ScrollBars = ScrollBars.Vertical;
+    pnl.Controls.Add(tbl);
+    Cell1.Controls.Add(pnl);
+        
+ 
  
 
         

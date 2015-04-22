@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Домашняя страница" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
-
+<%@ OutputCache Duration="20" VaryByParam="None" VaryByCustom="browser" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
 
@@ -16,7 +16,7 @@
 
       <asp:Label ID="Label5" runat="server" Text="Поиск грантов и стипендий" CssClass="container" Font-Size="24pt"></asp:Label> 
 
-        <asp:Table ID="Table1" runat="server" Height="130px" Width="61px" CellPadding="5" CellSpacing="5">
+        <asp:Table ID="Table1" runat="server" Height="130px" Width="61px" CellPadding="5" CellSpacing="5" BorderStyle="None">
            
             <asp:TableRow runat="server" BorderStyle="Double" BorderColor="#333333" BorderWidth="2px" ClientIDMode="Static">
 
