@@ -79,8 +79,9 @@ public partial class _Default : Page
            //  b.OnClientClick = "navAway('" + n.SelectSingleNode("url").InnerText + "')";
              b.Attributes.Add("onclick", "navAway('" + n.SelectSingleNode("url").InnerText + "')");
 
-             b2.Attributes.Add("onclick", "VK.api('wall.post', {message: \" Post via VK Open API \" }, function(r) {})");
-       
+            // b2.Attributes.Add("onclick", "VK.api('wall.post', {message: \" Post via VK Open API \" }, function(r) {})");
+           
+             b2.Attributes.Add("onclick", "  VK.callMethod(\"saveWallPost\", \"Хрень \");");
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
              tbc.Style.Add("border-bottom", "2px solid #eee");
