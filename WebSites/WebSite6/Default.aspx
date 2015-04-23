@@ -1,21 +1,21 @@
 ﻿<%@ Page Title="Домашняя страница" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 <%@ OutputCache Duration="20" VaryByParam="None" VaryByCustom="browser" %>
-
+<%@ Register TagPrefix="mycontrol" TagName="WebUserControl" Src="~/WebUserControl.ascx" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
 
-    <form id="form1" runat="server" style="margin: 0px; padding: 0px; height: 600px;width: 800px; background-color: #FFFFFF; font-family: Verdana;">
+    <form id="form1" runat="server" style="margin: 0px; padding: 0px; height: 650px;width: 830px; background-color: #ffecc2; font-family: Verdana; ">
 
       
 
 
         <br />
+
+      <asp:Label ID="Label5" runat="server" Text="Поиск грантов и стипендий" CssClass="container" Font-Size="20pt"></asp:Label> 
+
+        <br />
 &nbsp;&nbsp;
 
-      
-
-
-      <asp:Label ID="Label5" runat="server" Text="Поиск грантов и стипендий" CssClass="container" Font-Size="24pt"></asp:Label> 
-
+      <br />	
         <asp:Table ID="Table1" runat="server" Height="130px" Width="61px" CellPadding="5" CellSpacing="5" BorderStyle="None">
            
             <asp:TableRow runat="server" BorderStyle="Double" BorderColor="#333333" BorderWidth="2px" ClientIDMode="Static">
@@ -52,9 +52,9 @@
 </asp:TableCell>
             </asp:TableRow>
             <asp:TableRow runat="server">
-                <asp:TableCell runat="server"><asp:Button ID="Button3" runat="server"  BackColor="#6666FF" BorderStyle="None" Font-Bold="False" Font-Size="Larger" ForeColor="White" Text="Найти" OnClick="Button3_Click" Height="30" Width="80" />
+                <asp:TableCell runat="server" HorizontalAlign="Right"><asp:Button ID="Button3" runat="server"  BackColor="#6666FF" BorderStyle="None" Font-Bold="False" Font-Size="16px" ForeColor="White" Text="Найти" OnClick="Button3_Click"  />
 </asp:TableCell>
-                <asp:TableCell runat="server"><asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="None" Font-Bold="False" Font-Size="Larger" ForeColor="White" OnClick="Button1_Click" Text="Очистить" Font-Overline="False" BorderColor="Gray" BorderWidth="10" Height="30" Width="100" />
+                <asp:TableCell runat="server"><asp:Button ID="Button1" runat="server" BackColor="#999999" BorderStyle="None" Font-Bold="False" Font-Size="16px" ForeColor="White" OnClick="Button1_Click" Text="Очистить" Font-Overline="False" BorderColor="Gray" BorderWidth="10"   />
 </asp:TableCell>
             </asp:TableRow>
             <asp:TableRow runat="server">

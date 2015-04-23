@@ -45,7 +45,8 @@ public partial class _Default : Page
         if (((inCountry == country)||(country == ""))&&((inType == type)||(type == "-1"))&&((inSpec == spec)||(spec == "-1"))) 
             {Label l = new Label();
              Label l2 = new Label();
-             l.ForeColor = Color.Blue;
+             l.ForeColor = Color.FromArgb(44, 60, 112);
+             l.Font.Bold = true;
              Table tblIn = new Table();
              HyperLink hl = new HyperLink();
              TableRow tbrOut = new TableRow();
@@ -56,13 +57,16 @@ public partial class _Default : Page
              TableCell tbc3 = new TableCell();
              TableCell tbc = new TableCell();
              TableCell tbc2 = new TableCell();
+             WebUserControl wuc = new WebUserControl();
+            
              tbc3.HorizontalAlign = HorizontalAlign.Right;
              Button b = new Button();
              b.Text = "Сайт гранта";
-
-             b.BorderStyle = BorderStyle.None;
-            // b.BackColor = Color.FromArgb;
+            // b.CssClass = "enjoy_css";
+          b.BorderStyle = BorderStyle.None;
+             b.BackColor = Color.FromArgb(249,171,45);
              b.Font.Size = FontUnit.Medium;
+            // b.Attributes.Add("class","enjoy_css");
             inName = n.SelectSingleNode("name").InnerText;
             inDiscription = n.SelectSingleNode("discription").InnerText;
             
@@ -72,25 +76,32 @@ public partial class _Default : Page
             // b.PostBackUrl = ;
            //  b.OnClientClick = "navAway('" + n.SelectSingleNode("url").InnerText + "')";
              b.Attributes.Add("onclick", "navAway('" + n.SelectSingleNode("url").InnerText + "')");
-           
-
+       
+       
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
-             tblIn.BorderStyle = BorderStyle.Ridge;
+           
+            tbc3.Style.Add("border-top", "2px solid #eee");
+            b.Style.Add("margin", "2px");
+            tblIn.BorderStyle = BorderStyle.Ridge;
+
              tblIn.BorderColor = Color.LightGray;
              tblIn.BorderWidth = 1;
+           
             tbr.Controls.Add(tbc);
             tbc.Controls.Add(l);
             tbr2.Controls.Add(tbc2);
             tbc2.Controls.Add(l2);
+              tbc3.Controls.Add(b); 
             tbr3.Controls.Add(tbc3);
-            tbc3.Controls.Add(b);
+         //   tbc3.Controls.Add(wuc);
+         
             tblIn.Controls.Add(tbr);
             tblIn.Controls.Add(tbr2);
             tblIn.Controls.Add(tbr3);
             tbcOut.Controls.Add(tblIn);
             tbrOut.Controls.Add(tbcOut);
-         
+            tbrOut.BackColor = Color.White;
             tbl.Controls.Add(tbrOut);
           
            
