@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head runat="server" style="background-color: #ffecc2; ">
-    <a id="logo" href="https://vk.com/acad.mob.ssau" target="_blank" title="Академическая мобильность. Гранты (СГАУ)" style="background-image: url('http://localhost:53739/Images/Logo.png');background-size: 80px;  position: absolute; left: 600px; top:10px;">Умная Заграница</a>
+    <a id="logo" href="https://vk.com/acad.mob.ssau" target="_blank" title="Академическая мобильность. Гранты (СГАУ)" style="background-image: url('Images/Logo.png'); background-size: 80px;  position: absolute; left: 600px; top:10px;">Умная Заграница</a>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <title><%: Page.Title %> — мое приложение ASP.NET</title>
