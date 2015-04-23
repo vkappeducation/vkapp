@@ -80,8 +80,9 @@ public partial class _Default : Page
        
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
-           
+             tbc.Style.Add("border-bottom", "2px solid #eee");
             tbc3.Style.Add("border-top", "2px solid #eee");
+            tbc3.Style.Add("padding", "2px");
             b.Style.Add("margin", "2px");
             tblIn.BorderStyle = BorderStyle.Ridge;
 
