@@ -61,7 +61,9 @@ public partial class _Default : Page
             
              tbc3.HorizontalAlign = HorizontalAlign.Right;
              Button b = new Button();
+             Button b2 = new Button();
              b.Text = "Сайт гранта";
+             b2.Text = "Сохранить";
             // b.CssClass = "enjoy_css";
           b.BorderStyle = BorderStyle.None;
              b.BackColor = Color.FromArgb(249,171,45);
@@ -76,7 +78,8 @@ public partial class _Default : Page
             // b.PostBackUrl = ;
            //  b.OnClientClick = "navAway('" + n.SelectSingleNode("url").InnerText + "')";
              b.Attributes.Add("onclick", "navAway('" + n.SelectSingleNode("url").InnerText + "')");
-       
+
+             b2.Attributes.Add("onclick", "VK.api('wall.post', {message: \" Post via VK Open API \" }, function(r) {})");
        
              hl.NavigateUrl = hl.Text;
              l.Width = 450;
@@ -93,7 +96,9 @@ public partial class _Default : Page
             tbc.Controls.Add(l);
             tbr2.Controls.Add(tbc2);
             tbc2.Controls.Add(l2);
-              tbc3.Controls.Add(b); 
+              tbc3.Controls.Add(b2);  
+            tbc3.Controls.Add(b);
+             
             tbr3.Controls.Add(tbc3);
          //   tbc3.Controls.Add(wuc);
          
