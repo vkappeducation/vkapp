@@ -97,7 +97,7 @@ public partial class _Default : Page
             tbc.Controls.Add(l);
             tbr2.Controls.Add(tbc2);
             tbc2.Controls.Add(l2);
-              tbc3.Controls.Add(b2);  
+             // tbc3.Controls.Add(b2);  
             tbc3.Controls.Add(b);
              
             tbr3.Controls.Add(tbc3);
