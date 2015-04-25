@@ -11,15 +11,24 @@
   </grant>
   <grant>
     <country>Франция</country>
-    <type>1</type>
+    <type>2</type>
     <spec>1</spec>
     <name>Грант Эмилии Кларк</name>
     <discription>Sciences Po ввели стипендию имени Эмиля Баутми в честь основателя университета (1871) с целью привлечь самых лучших студентов из стран, не входящих в Европейский Союз.</discription>
     <url>https://ru.wikipedia.org/wiki/Франция</url>
   </grant>
   <grant>
+    <grant>
     <country>Корея</country>
-    <type>1</type>
+    <type>3</type>
+    <spec>1</spec>
+    <name>Грант Эмилии Кларк Корея</name>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Корея</url>
+  </grant>
+      <grant>
+    <country>Корея</country>
+    <type>3</type>
     <spec>1</spec>
     <name> Курсы словенского языка</name>
     <discription>Кандидаты, не имеющие словенского происхождения, но активно участвующие в словенской жизни или иным образом способствующие продвижению Словении в мире, могут подать заявку на одну из стипендий Фонда JanaZemljarič</discription>
@@ -27,7 +36,7 @@
   </grant>
   <grant>
     <country>Нигерия</country>
-    <type>1</type>
+    <type>4</type>
     <spec>1</spec>
     <name>
       Премия имени Елены Рерих
@@ -37,7 +46,7 @@
   </grant>
   <grant>
     <country>Россия</country>
-    <type>1</type>
+    <type>5</type>
     <spec>1</spec>
     <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
@@ -45,7 +54,7 @@
   </grant>
   <grant>
     <country>Швеция</country>
-    <type>1</type>
+    <type>6</type>
     <spec>1</spec>
     <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
@@ -53,10 +62,27 @@
   </grant>
   <grant>
     <country>Корея</country>
-    <type>1</type>
+    <type>7</type>
     <spec>1</spec>
     <name>Грант Эмилии Кларк</name>
     <discription>Описание</discription>
     <url>https://ru.wikipedia.org/wiki/Корея</url>
   </grant>
+ <grant>
+    <country>Корея</country>
+    <type>8</type>
+    <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Корея</url>
+  </grant>
+<grant>
+    <country>Корея</country>
+    <type>9</type>
+    <spec>1</spec>
+    <name>Грант Эмилии Кларк</name>
+    <discription>Описание</discription>
+    <url>https://ru.wikipedia.org/wiki/Корея</url>
+  </grant>
+
 </grants>
