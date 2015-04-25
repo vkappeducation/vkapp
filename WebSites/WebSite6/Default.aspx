@@ -32,7 +32,21 @@
                 <asp:TableCell runat="server"><asp:Label ID="Label1" runat="server" Text="Страна"></asp:Label>
 </asp:TableCell>
                
-                <asp:TableCell ID="Cell1" runat="server" RowSpan="20" VerticalAlign="Top"></asp:TableCell>
+                <asp:TableCell ID="Cell1" runat="server" RowSpan="20" VerticalAlign="Top">
+                    <br />
+                    <asp:Label ID="Label8" runat="server" Text="Теперь не нужно бороздить интернет в поисках стипендии на образование, летнюю школу или профессиональный проект – все гранты собраны в одном приложении!" Width="500"></asp:Label>
+                    <br />
+                  <br />
+                    <asp:Label ID="Label3" runat="server" Text="Задайте нужные вам страну, уровень и специализацию и получите необходимые источники финансирования с дедлайнами подачи заявки.
+
+" Width="500"></asp:Label>
+                     <br />
+                  <br />
+                    <asp:Label ID="Label9" runat="server" Text="Обращаем ваше внимание, что сроки приема документов на некоторые стипендии в этом году уже прошли – но они будут доступны в следующем! База пополняется на 40—50 новых возможностей ежемесячно.
+
+" Width="500"></asp:Label>
+                          
+                </asp:TableCell>
 
             </asp:TableRow>
 
@@ -99,6 +113,8 @@
         <asp:XmlDataSource ID="XmlDataSource1" Runat="server" DataFile="App_Data/Countries.xml"
             XPath="countries/countrie">
         </asp:XmlDataSource>&nbsp;
+     
+        
      
     </form>
 

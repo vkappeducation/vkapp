@@ -68,9 +68,9 @@ public partial class _Default : Page
              inCountry= n.SelectSingleNode("country").InnerText;
              inType = n.SelectSingleNode("type").InnerText;
              inSpec = n.SelectSingleNode("spec").InnerText;
-             if (!flags[Convert.ToInt32(inType)-1])
+             if (!flags[Convert.ToInt32(inType)])
              {
-                 flags[Convert.ToInt32(inType)-1] = true;
+                 flags[Convert.ToInt32(inType)] = true;
 
                  if (((inCountry == country) || (country == "")) && ((inType == type) || (type == "-1")) && ((inSpec == spec) || (spec == "-1")))
                  {

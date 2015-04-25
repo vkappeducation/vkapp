@@ -42,6 +42,7 @@ public partial class SiteMaster : MasterPage
         }
 
         Page.PreLoad += master_Page_PreLoad;
+       
     }
 
     void master_Page_PreLoad(object sender, EventArgs e)
