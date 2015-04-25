@@ -8,12 +8,30 @@ using System.Web.UI.WebControls;
 using System.Xml;
 
 public partial class _Default : Page
-{
+{   
     protected void Page_Load(object sender, EventArgs e)
     {
+
         
 
+    }
+    protected void Page_PreRenderComplete(object sender, EventArgs e)
+    {
+        List<ListItem> t = new List<ListItem>();
 
+        Comparison<ListItem> compare = new Comparison<ListItem>(CompareListItems);
+        foreach (ListItem lbItem in ListBox1.Items)
+            t.Add(lbItem);
+
+
+        t.Sort(compare);
+        ListBox1.Items.Clear();
+        ListBox1.Items.AddRange(t.ToArray());
+    }
+    
+    int CompareListItems(ListItem li1, ListItem li2)
+    {
+        return String.Compare(li1.Value, li2.Value);
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
