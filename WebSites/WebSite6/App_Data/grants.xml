@@ -50,7 +50,17 @@
 	Продолжительность: от 1 до 2-х лет</discription>
     <url>http://www.fulbright.ru/ru/russians/vgs</url>
   </grant>
-
+ <grant>
+    <country>Барселона</country>
+    <type>1</type>
+    <spec>0</spec>
+    <name>Университет Барселоны UB University</name>
+    <discription>Дедлайн: 15 июня 2015 г.
+Срок обучения: 36 месяцев.
+Программа направлена на получения студентами степени доктора наук для получения академических знаний на рынке труда. 
+</discription>
+    <url>http://www.ub.edu/ubeconomics/</url>
+  </grant>
   <grant>
     <country>Англия</country>
     <type>7</type>
