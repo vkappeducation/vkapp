@@ -74,7 +74,7 @@ public partial class _Default : Page
 
                  if (((inCountry == country) || (country == "")) && ((inType == type) || (type == "-1")) && ((inSpec == spec) || (spec == "-1")))
                  {
-                     flags[Convert.ToInt32(inType)] = true;
+                     if ((country == "") && (type == "-1") && (spec == "-1")) { flags[Convert.ToInt32(inType)] = true; }
                      Label l = new Label();
                      Label l2 = new Label();
                      l.ForeColor = Color.FromArgb(44, 60, 112);
