@@ -95,5 +95,13 @@
 </discription>
     <url>http://www.unimelb.edu.au/</url>
   </grant>
-
+<grant>
+    <country>Франция</country>
+    <type>1</type>
+    <spec>0</spec>
+    <name>Бизнес школа EDHEC. Франция</name>
+    <discription>Стипендии до 40% для обучения в бизнес школе EDHEC. Требования к поступающим: высокий балл GMAT, высокий средний балл диплома, внеакадемические достижения.
+Дедлайн: 31 марта</discription>
+    <url>http://msc-finance.edhec.com/financing/edhec-scholarships-and-financial-aid-84938.kjsp</url>
+  </grant>
 </grants>
