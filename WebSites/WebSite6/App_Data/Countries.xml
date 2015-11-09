@@ -1,20 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <countries>
   <countrie name="Россия"/>
-  <countrie name="Англия"/>
-  <countrie name="Франция"/>
   <countrie name="Германия"/>
-  <countrie name="Швеция"/>
+  <countrie name="Гонконг"/>
   <countrie name="США"/>
-  <countrie name="Нигерия"/>
-  <countrie name="Испания"/>
-  <countrie name="Австралия"/>
-   <countrie name="Румыния"/>
+  <countrie name="Нидерланды"/>
 <countrie name="Швейцария"/>
-<countrie name="Китай"/>
 <countrie name="Турция"/>
-<countrie name="Дубаи"/>
-<countrie name="Кувейт"/>
-<countrie name="Мексика"/>
 <countrie name="Финляндия"/>
 </countries>
